@@ -1,12 +1,8 @@
 if LoadingType == "" then
   loadstring(game:HttpGet("https://pastebin.com/raw/5gMigbSn", true))()
-end
-
-if LoadingType == "2" then
+elseif LoadingType == "2" then
   loadstring(game:HttpGet("https://pastebin.com/raw/pUhk3QrS", true))()
-end
-
-if LoadingType == "1" then
+elseif LoadingType == "1" then
   loadstring(game:HttpGet("https://pastebin.com/raw/5gMigbSn", true))()
 end
 
